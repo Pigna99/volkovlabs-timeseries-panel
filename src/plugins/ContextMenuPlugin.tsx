@@ -166,6 +166,7 @@ export const ContextMenuPlugin = ({
 
   return (
     <>
+    <div>Ciao</div>
       <Global
         styles={cssCore`
         .uplot .u-cursor-pt {

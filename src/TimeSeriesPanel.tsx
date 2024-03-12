@@ -193,6 +193,7 @@ export const TimeSeriesPanel = ({
 
         return (
           <>
+          <div>Ciao!!!</div>
             <KeyboardPlugin config={config} />
             <ZoomPlugin config={config} onZoom={onChangeTimeRange} />
             {options.tooltip.mode === TooltipDisplayMode.None || (
